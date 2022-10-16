@@ -1,0 +1,133 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 07:42:06  October 05, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		projeto_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:42:06  OCTOBER 05, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VERILOG_FILE main.v
+set_global_assignment -name VERILOG_FILE decodificador.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AA17 -to dis0[0]
+set_location_assignment PIN_AB16 -to dis0[1]
+set_location_assignment PIN_AA16 -to dis0[2]
+set_location_assignment PIN_AB17 -to dis0[3]
+set_location_assignment PIN_AB15 -to dis0[4]
+set_location_assignment PIN_AA15 -to dis0[5]
+set_location_assignment PIN_AC17 -to dis0[6]
+set_location_assignment PIN_AD17 -to dis1[0]
+set_location_assignment PIN_AE17 -to dis1[1]
+set_location_assignment PIN_AG17 -to dis1[2]
+set_location_assignment PIN_AH17 -to dis1[3]
+set_location_assignment PIN_AF17 -to dis1[4]
+set_location_assignment PIN_AG18 -to dis1[5]
+set_location_assignment PIN_AA14 -to dis1[6]
+set_location_assignment PIN_AB19 -to dis2[0]
+set_location_assignment PIN_AA19 -to dis2[1]
+set_location_assignment PIN_AG21 -to dis2[2]
+set_location_assignment PIN_AH21 -to dis2[3]
+set_location_assignment PIN_AE19 -to dis2[4]
+set_location_assignment PIN_AF19 -to dis2[5]
+set_location_assignment PIN_AE18 -to dis2[6]
+set_location_assignment PIN_AD18 -to dis3[0]
+set_location_assignment PIN_AC18 -to dis3[1]
+set_location_assignment PIN_AB18 -to dis3[2]
+set_location_assignment PIN_AH19 -to dis3[3]
+set_location_assignment PIN_AG19 -to dis3[4]
+set_location_assignment PIN_AF18 -to dis3[5]
+set_location_assignment PIN_AH18 -to dis3[6]
+set_location_assignment PIN_Y23 -to number0[6]
+set_location_assignment PIN_Y24 -to number0[5]
+set_location_assignment PIN_AA22 -to number0[4]
+set_location_assignment PIN_AA23 -to number0[3]
+set_location_assignment PIN_AA24 -to number0[2]
+set_location_assignment PIN_AB23 -to number0[1]
+set_location_assignment PIN_AB24 -to number0[0]
+set_location_assignment PIN_AC24 -to number1[6]
+set_location_assignment PIN_AB25 -to number1[5]
+set_location_assignment PIN_AC25 -to number1[4]
+set_location_assignment PIN_AB26 -to number1[3]
+set_location_assignment PIN_AD26 -to number1[2]
+set_location_assignment PIN_AC26 -to number1[1]
+set_location_assignment PIN_AB27 -to number1[0]
+set_global_assignment -name MISC_FILE "D:/Users/yass/Documents/projeto/projeto.dpf"
+set_location_assignment PIN_R24 -to btnSoma
+set_location_assignment PIN_N21 -to btnSub
+set_location_assignment PIN_M21 -to btnMult
+set_location_assignment PIN_M23 -to btnOO
+set_location_assignment PIN_V21 -to saida1[0]
+set_location_assignment PIN_U21 -to saida1[1]
+set_location_assignment PIN_AB20 -to saida1[2]
+set_location_assignment PIN_AA21 -to saida1[3]
+set_location_assignment PIN_AD24 -to saida1[4]
+set_location_assignment PIN_AF23 -to saida1[5]
+set_location_assignment PIN_Y19 -to saida1[6]
+set_location_assignment PIN_AA25 -to saida2[0]
+set_location_assignment PIN_AA26 -to saida2[1]
+set_location_assignment PIN_Y25 -to saida2[2]
+set_location_assignment PIN_W26 -to saida2[3]
+set_location_assignment PIN_Y26 -to saida2[4]
+set_location_assignment PIN_W27 -to saida2[5]
+set_location_assignment PIN_W28 -to saida2[6]
+set_location_assignment PIN_M24 -to saida3[0]
+set_location_assignment PIN_Y22 -to saida3[1]
+set_location_assignment PIN_W21 -to saida3[2]
+set_location_assignment PIN_W22 -to saida3[3]
+set_location_assignment PIN_W25 -to saida3[4]
+set_location_assignment PIN_U23 -to saida3[5]
+set_location_assignment PIN_U24 -to saida3[6]
+set_location_assignment PIN_H22 -to saida4[6]
+set_location_assignment PIN_J22 -to saida4[5]
+set_location_assignment PIN_L25 -to saida4[4]
+set_location_assignment PIN_L26 -to saida4[3]
+set_location_assignment PIN_E17 -to saida4[2]
+set_location_assignment PIN_F22 -to saida4[1]
+set_location_assignment PIN_G18 -to saida4[0]
+set_location_assignment PIN_Y2 -to clk
+set_global_assignment -name VERILOG_FILE decodificadorONOFF.v
+set_global_assignment -name MISC_FILE "D:/Users/yass/Downloads/projeto/projeto/projeto/projeto.dpf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
